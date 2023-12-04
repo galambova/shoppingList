@@ -1,0 +1,50 @@
+body {
+  background-color: #f0e0b9;
+  font-family: 'Courier New', monospace, sans-serif;
+}
+
+input[type="text"] {
+  font-family: 'Courier New', monospace, sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+#userinput {
+  border: 3px solid #A69D87;
+}
+
+.delete, #enter {
+    margin-left: 2em;
+    padding: 2px 7px;
+    background-color: #A69D87;
+}
+
+li {
+  margin: 0.5em 0em;
+  display: ;
+}
+
+ul {
+  margin-left: -1em;
+  margin-top: 2em;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
+}
